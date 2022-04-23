@@ -1,0 +1,113 @@
+.questions_desc {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: 202.97px;
+    color: black;
+}
+.frequent_question_section {
+    width: 960px;
+    margin: 0 auto 0;
+    padding-top: 58.5px;
+
+    button {
+        width: 100%;
+        text-align: left;
+        margin-top: 16.5px;
+        padding: 34px 32px 30px;
+        border: 1px solid #e0e0ee;
+        background: #fff;
+        border-radius: 5px;
+        font-size: 20px;
+        font-weight: 700;
+        color: #00ae00;
+        position: relative;
+        box-shadow: 0px 0px 10px 2px rgba(111, 109, 113, 0.1);
+        &:hover {
+            background-color: rgba(220, 220, 220, 0.5);
+        }
+        img {
+            position: absolute;
+            top: 30px;
+            right: 23px;
+        }
+        p {
+            display: none;
+            margin-top: 10px;
+            color: #666;
+            font-size: 18px;
+            font-weight: 400;
+        }
+        &.show_ans {
+            border: 1px solid #666;
+            background-color: rgba(255, 203, 5, 0.1);
+            p {
+                display: block;
+            }
+            img {
+                content: url('../images/minus.svg');
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 901px) {
+    .questions_desc {
+        font-size: 30px;
+        font-weight: 650;
+    }
+    .frequent_question_section {
+        width: 92%;
+
+        button {
+            padding: 34px 40px 30px 32px;
+            font-size: 18px;
+            img {
+                top: 23px;
+            }
+            p {
+                font-size: 16px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 900px) and (min-width: 601px) {
+    .questions_desc {
+        font-size: 30px;
+        font-weight: 650;
+    }
+    .frequent_question_section {
+        width: 92%;
+
+        button {
+            padding: 34px 40px 30px 32px;
+            font-size: 14px;
+            img {
+                top: 23px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .questions_desc {
+        font-size: 30px;
+        margin-top: 119.34px;
+    }
+    .frequent_question_section {
+        width: 92%;
+
+        button {
+            padding: 34px 40px 30px 32px;
+            font-size: 14px;
+            img {
+                top: 23px;
+            }
+            p {
+                font-size: 14px;
+            }
+        }
+    }
+}

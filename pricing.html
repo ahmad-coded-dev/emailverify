@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Pricing</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./sass/index.scss" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="icon" href="./images/favicon.ico" />
+    </head>
+    <body>
+        <div class="bg_for_body"></div>
+        <!-- main page background mask -->
+        <img class="main_bg_absolute" src="./images/mask.svg" />
+
+        <button class="mob_navbar_hamburger">
+            <img class="mob_navbar_hamburger" src="./images/hamburger.svg" />
+        </button>
+
+        <!-- navbar  -->
+        <a class="mob_navbar_logo" href="./index.html"
+            ><img src="./images/emailverify_logo.svg"
+        /></a>
+        <div class="main-navbar" id="navbarr">
+            <div class="navbar hide_navbar">
+                <div class="navbar_logo">
+                    <a href="./index.html"
+                        ><img src="./images/emailverify_logo.svg"
+                    /></a>
+                </div>
+                <button class="mob_navbar_cross">
+                    <img class="mob_navbar_cross" src="./images/cross.svg" />
+                </button>
+                <div class="navbar_links_buttons">
+                    <div class="links_for_mobile_navbar">
+                        <a href="#" class="login_btn">Login</a>
+                        <a href="#" class="signup_btn">Sign up</a>
+                        <a href="#" class="dashboard_btn">Dashboard</a>
+                    </div>
+                    <div class="navbar_links">
+                        <div class="menuitems">
+                            <a href="./index.html">Home</a>
+                        </div>
+                        <div class="menuitems">
+                            <a class="target" href="./pricing.html">Pricing</a>
+                            <div class="selected_page"></div>
+                        </div>
+                        <div class="menuitems">
+                            <a href="./about.html">About us</a>
+                        </div>
+                    </div>
+
+                    <div class="navbar_buttons">
+                        <a href="#" class="login_btn">Login</a>
+                        <a href="#" class="signup_btn">Sign up</a>
+                        <a href="#" class="dashboard_btn">Dashboard</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- pricing description -->
+        <div class="price_decription">
+            <h1><span> Flexible </span>Pricing</h1>
+            <p>
+                Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed
+                diam nonumy eirmod tempor invidunt ut labore et dolore magna
+                aliquyam erat
+            </p>
+        </div>
+
+        <!-- pricing section -->
+        <div class="pricing_sction">
+            <div class="valid_emails_section">
+                <p class="valid_emails">Total Emails</p>
+                <input
+                    type="range"
+                    min="0"
+                    max="1000000"
+                    value="0"
+                    id="valid_slider"
+                    class="valid_slider"
+                />
+                <input class="valid_input" inputmode="numeric" />
+                <p class="valid_price">$ <span id="valid_price"></span></p>
+                <div class="min_max">
+                    <p>Min</p>
+                    <p>Max</p>
+                </div>
+            </div>
+
+            <div class="invalidemails_section">
+                <p class="invalidemails">Invalid Emails</p>
+                <input
+                    type="range"
+                    step="1"
+                    id="invalid_slider"
+                    class="invalid_slider"
+                />
+                <input class="invalid_input" inputmode="numeric" />
+                <p class="invalid_price">$ <span id="invalid_price"></span></p>
+                <div class="min_max">
+                    <p>Min</p>
+                    <p>Max</p>
+                </div>
+            </div>
+
+            <div class="total_price_section">
+                <p>Total Price</p>
+                <p class="total_price">$ <span id="total_price"></span></p>
+                <p class="offer">*Free $5 every month included.</p>
+            </div>
+        </div>
+
+        <!-- enterprise description -->
+        <div class="enterprise_description">
+            <h2>Need an enterprise plan?</h2>
+            <span>Let's get in touch.</span>
+            <p>
+                If you have more than 1 million emails, then contact us for an
+                enterprise plan.
+            </p>
+        </div>
+
+        <!-- enterprise contact -->
+        <div class="response_msg_section">
+            <img src="./images/information.svg" />
+            <p class="response_msg"></p>
+        </div>
+
+        <form class="enterprise_contact" id="contact_form">
+            <div>
+                <label for="name">Name</label>
+                <input
+                    required
+                    id="name"
+                    name="name"
+                    onfocus="active_input(this)"
+                    onblur="check_input_field(this)"
+                />
+            </div>
+
+            <div>
+                <label for="email">Email</label>
+                <input
+                    name="email"
+                    id="email"
+                    required
+                    type="email"
+                    onfocus="active_input(this)"
+                    onblur="check_input_field(this)"
+                />
+            </div>
+
+            <div>
+                <label for="subject">Subject</label>
+                <input
+                    required
+                    name="subject"
+                    id="subject"
+                    onfocus="active_input(this)"
+                    onblur="check_input_field(this)"
+                />
+            </div>
+
+            <div>
+                <label for="number">Phone Number</label>
+                <input
+                    name="number"
+                    id="number"
+                    inputmode="numeric"
+                    onfocus="active_input(this)"
+                    onblur="check_input_field(this)"
+                    oninput="check_charecters(this)"
+                />
+            </div>
+
+            <div class="textarea">
+                <label for="message">Message</label>
+                <textarea
+                    name="message"
+                    id="message"
+                    onfocus="active_input(this)"
+                    onblur="check_input_field(this)"
+                ></textarea>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+        <!-- attraction bar -->
+        <div class="bar">
+            <h1>
+                Get quick <br class="for_mobile" />
+                and cost-effective email <br />
+                <span>verification now</span>
+            </h1>
+            <a class="signup_btn">Sign up now</a>
+            <a href="#" class="dashboard_btn">Dashboard</a>
+            <p>Sign up and get $5 credits free every month</p>
+        </div>
+
+        <!-- frequently asked questions -->
+        <p class="questions_desc">Frequently asked questions</p>
+        <div class="frequent_question_section">
+            <button onclick="show_ans(this)">
+                <span>How do I pay for the Essentials or Premium plan?</span>
+                <img src="./images/plus.svg" />
+                <p>
+                    You can pay with a credit card or via net banking (if you’re
+                    in United States). We will renew your subscription
+                    automatically at the end of every billing cycle.
+                </p>
+            </button>
+            <button onclick="show_ans(this)">
+                <span
+                    >Can I cancel my Essentials or Premium plan subscription at
+                    any time?</span
+                >
+                <img src="./images/plus.svg" />
+                <p>
+                    You can pay with a credit card or via net banking (if you’re
+                    in United States). We will renew your subscription
+                    automatically at the end of every billing cycle.
+                </p>
+            </button>
+            <button onclick="show_ans(this)">
+                <span
+                    >We need to add new users to our team. How will that be
+                    billed?</span
+                >
+                <img src="./images/plus.svg" />
+                <p>
+                    You can pay with a credit card or via net banking (if you’re
+                    in United States). We will renew your subscription
+                    automatically at the end of every billing cycle.
+                </p>
+            </button>
+            <button onclick="show_ans(this)">
+                <span
+                    >My team wants to cancel its subscription. How do we do
+                    that? Can we get a refund?</span
+                >
+                <img src="./images/plus.svg" />
+                <p>
+                    You can pay with a credit card or via net banking (if you’re
+                    in United States). We will renew your subscription
+                    automatically at the end of every billing cycle.
+                </p>
+            </button>
+            <button onclick="show_ans(this)">
+                <span
+                    >Do you offer discounts for non-profit organizations or
+                    educational institutions?</span
+                >
+                <img src="./images/plus.svg" />
+                <p>
+                    You can pay with a credit card or via net banking (if you’re
+                    in United States). We will renew your subscription
+                    automatically at the end of every billing cycle.
+                </p>
+            </button>
+        </div>
+        <the-footer></the-footer>
+
+        <script src="./js/price.js"></script>
+        <script src="./js/enterprise_contact.js"></script>
+        <script src="./js/questions.js"></script>
+        <script type="module" src="./js/check_cookie.js"></script>
+        <script src="./js/nav.js"></script>
+        <script type="module" src="./js/form.js"></script>
+        <script type="module" src="./js/components.js"></script>
+    </body>
+</html>

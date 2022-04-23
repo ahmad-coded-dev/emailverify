@@ -1,0 +1,433 @@
+.response_msg_section {
+    height: 65px;
+    width: 550px;
+    margin: 75px auto 50px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 3px rgba(0, 0, 0, 0.1);
+    position: relative;
+    font-size: 21px;
+    display: none;
+    img {
+        height: 25px;
+        width: 25px;
+        margin: 20px;
+    }
+    p {
+        position: absolute;
+        top: 16px;
+        left: 90px;
+    }
+}
+.message_submit_error {
+    background: rgba(225, 0, 0, 0.05);
+    border: 1px solid red;
+    p {
+        color: rgba(255, 0, 0, 0.7);
+    }
+    img {
+        filter: invert(28%) sepia(80%) saturate(7477%) hue-rotate(354deg)
+            brightness(96%) contrast(122%);
+    }
+}
+.message_submit {
+    width: 350px;
+    background: rgba(0, 225, 0, 0.05);
+    border: 1px solid green;
+    p {
+        color: rgba(0, 174, 0, 1);
+        left: 60px;
+        top: 18px;
+    }
+    img {
+        filter: invert(43%) sepia(59%) saturate(2448%) hue-rotate(87deg)
+            brightness(97%) contrast(104%);
+    }
+}
+@media only screen and (min-width: 1201px) {
+    .enterprise_description {
+        width: 689px;
+        height: 156px;
+        margin: 202px auto 0;
+        text-align: center;
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        span {
+            font-size: 36px;
+            font-weight: 700;
+            color: #00ae00;
+        }
+        p {
+            margin-top: 21px;
+            color: #666;
+        }
+    }
+
+    .enterprise_contact {
+        width: 1170px;
+        margin: 83px auto 0;
+        text-align: center;
+        input {
+            width: 553px;
+            height: 50px;
+            border: 1px solid #666;
+            border-radius: 5px;
+            margin-top: 9.5px;
+            font-size: 20px;
+            padding-left: 20px;
+            &:focus {
+                outline: none;
+            }
+        }
+        div {
+            margin: 0 0px 49px 0;
+            display: inline-block;
+            label {
+                color: #666;
+                display: block;
+                text-align: left;
+            }
+            &.active_input {
+                label {
+                    color: black;
+                }
+                input {
+                    border: 2px solid #666;
+                }
+                textarea {
+                    border: 2px solid #666;
+                }
+            }
+            &:nth-child(2),
+            &:nth-child(4) {
+                float: right;
+            }
+            &:nth-child(1),
+            &:nth-child(3) {
+                float: left;
+            }
+        }
+        textarea {
+            margin-top: 9.5px;
+            width: 1130px;
+            height: 277px;
+            border: 1px solid #666;
+            border-radius: 5px;
+            padding: 40px 0 0 40px;
+            font-size: 20px;
+        }
+        button {
+            margin-top: 84px;
+            width: 220px;
+            height: 60px;
+            background: #00ae00;
+            color: white;
+            border-radius: 50px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 901px) {
+    .enterprise_description {
+        width: 91%;
+        height: 156px;
+        margin: 100px auto 0;
+        text-align: center;
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        span {
+            font-size: 36px;
+            font-weight: 700;
+            color: #00ae00;
+        }
+        p {
+            margin-top: 21px;
+            color: #666;
+        }
+    }
+
+    .enterprise_contact {
+        width: 91%;
+        margin: 30px auto 0;
+        text-align: center;
+        input {
+            width: 98%;
+            height: 50px;
+            border: 1px solid #666;
+            border-radius: 5px;
+            margin-top: 9.5px;
+            font-size: 20px;
+            padding-left: 2%;
+            &:focus {
+                outline: none;
+                border: 2px solid #666;
+            }
+        }
+        div {
+            width: 49%;
+            margin: 0 0px 49px 0;
+            display: inline-block;
+            label {
+                float: left;
+                color: #666;
+                display: block;
+                &::after {
+                    content: '*';
+                    color: red;
+                    margin-left: 5px;
+                }
+            }
+            label[for='number'],
+            label[for='message'] {
+                &::after {
+                    content: '';
+                }
+            }
+            &.active_input {
+                label {
+                    color: black;
+                }
+                input {
+                    border: 2px solid #666;
+                }
+                textarea {
+                    border: 2px solid #666;
+                }
+            }
+            &:nth-child(2),
+            &:nth-child(4) {
+                float: right;
+            }
+            &:nth-child(1),
+            &:nth-child(3) {
+                float: left;
+            }
+            &.textarea {
+                width: 100%;
+            }
+        }
+        textarea {
+            margin-top: 9.5px;
+            width: 96%;
+            height: 277px;
+            border: 1px solid #666;
+            border-radius: 5px;
+            padding: 3% 0 0 4%;
+            font-size: 20px;
+            &:focus {
+                border: 2px solid #666;
+            }
+        }
+        button {
+            margin-top: 25px;
+            width: 220px;
+            height: 60px;
+            background: #00ae00;
+            color: white;
+            border-radius: 50px;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+}
+@media only screen and (max-width: 900px) and (min-width: 601px) {
+    .enterprise_description {
+        width: 91%;
+        height: 156px;
+        margin: 202px auto 0;
+        text-align: center;
+        h1 {
+            font-size: 36px;
+            font-weight: 700;
+        }
+        span {
+            font-size: 36px;
+            font-weight: 700;
+            color: #00ae00;
+        }
+        p {
+            margin-top: 21px;
+            color: #666;
+        }
+    }
+
+    .enterprise_contact {
+        width: 91%;
+        margin: 83px auto 0;
+        text-align: center;
+        input {
+            width: 97%;
+            height: 50px;
+            border: 1px solid #666;
+            border-radius: 5px;
+            margin-top: 9.5px;
+            font-size: 20px;
+            padding-left: 3%;
+            &:focus {
+                outline: none;
+                border: 2px solid #666;
+            }
+        }
+        div {
+            margin: 0 0 49px 0;
+            width: 100%;
+            label {
+                text-align: left;
+                color: #666;
+                display: block;
+            }
+            &.active_input {
+                label {
+                    color: black;
+                }
+                input {
+                    border: 2px solid #666;
+                }
+                textarea {
+                    border: 2px solid #666;
+                }
+            }
+        }
+        textarea {
+            margin-top: 9.5px;
+            width: 94%;
+            height: 280px;
+            border: 1px solid #666;
+            border-radius: 5px;
+            padding: 3%;
+            font-size: 20px;
+        }
+        button {
+            margin-top: 84px;
+            width: 220px;
+            height: 60px;
+            background: #00ae00;
+            color: white;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+}
+@media only screen and (max-width: 600px) {
+    .enterprise_description {
+        width: 91%;
+        margin: 120px auto 0;
+        text-align: center;
+        height: 156px;
+        h1 {
+            font-size: 30px;
+            font-weight: 700;
+        }
+        span {
+            font-weight: 700;
+            color: #00ae00;
+        }
+        p {
+            margin-top: 21px;
+            color: #666;
+            font-size: 14px;
+        }
+    }
+
+    .enterprise_contact {
+        width: 91%;
+        margin: 40px auto 0;
+        text-align: center;
+        input {
+            width: 97%;
+            height: 50px;
+            border: 1px solid #666;
+            border-radius: 5px;
+            margin-top: 9.5px;
+            font-size: 20px;
+            padding-left: 3%;
+            &:focus {
+                outline: none;
+                border: 2px solid #666;
+            }
+        }
+        p {
+            text-align: left;
+        }
+        div {
+            margin: 0 0 49px 0;
+            width: 100%;
+            label {
+                color: #666;
+                display: block;
+                text-align: left;
+            }
+            &.active_input {
+                label {
+                    color: black;
+                }
+                input {
+                    border: 2px solid #666;
+                }
+                textarea {
+                    border: 2px solid #666;
+                }
+            }
+        }
+        textarea {
+            margin-top: 9.5px;
+            width: 94%;
+            height: 280px;
+            border: 1px solid #666;
+            border-radius: 5px;
+            padding: 3%;
+            font-size: 20px;
+        }
+        button {
+            margin-top: 46px;
+            width: 220px;
+            height: 60px;
+            background: #00ae00;
+            color: white;
+            border-radius: 50px;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+
+    .response_msg_section {
+        width: 82%;
+        p {
+            font-size: 14px;
+        }
+    }
+    .message_submit_error {
+        p {
+            left: 60px;
+            top: 22px;
+        }
+    }
+    .message_submit {
+        width: 300px;
+        p {
+            top: 22px;
+        }
+    }
+}
+
+label {
+    &::after {
+        content: '*';
+        color: red;
+        margin-left: 5px;
+    }
+}
+label[for='number'],
+label[for='message'] {
+    &::after {
+        content: '';
+    }
+}
+textarea{
+    resize: none;
+}

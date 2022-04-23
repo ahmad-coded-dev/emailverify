@@ -1,0 +1,205 @@
+@media only screen and (min-width: 1201px) {
+    .last_part {
+        width: 1170px;
+        margin: 204.95px auto 121px;
+        display: flex;
+        justify-content: space-between;
+        div {
+            &.logo_desc {
+                width: 279px;
+                p {
+                    margin-top: 31.63px;
+                    color: #666;
+                    font-size: 16px;
+                }
+            }
+            &.userfullinks_contactinfo {
+                width: 455px;
+                display: flex;
+                justify-content: space-between;
+                div {
+                    &.userful_links {
+                        width: 167px;
+                        display: flex;
+                        flex-direction: column;
+                        h2 {
+                            margin-bottom: 25px;
+                        }
+                        a {
+                            color: #a2a2a2;
+                            font-size: 18px;
+                        }
+                    }
+                    &.contact_info {
+                        display: flex;
+                        flex-direction: column;
+                        h2 {
+                            margin-bottom: 25px;
+                        }
+                        P {
+                            font-size: 18px;
+                            color: #a2a2a2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 901px) {
+    .last_part {
+        width: 91%;
+        margin: 204.95px auto 121px;
+        display: flex;
+        justify-content: space-between;
+        div {
+            &.logo_desc {
+                width: 279px;
+                p {
+                    margin-top: 31.63px;
+                    color: #666;
+                    font-size: 16px;
+                }
+            }
+            &.userfullinks_contactinfo {
+                width: 415px;
+                display: flex;
+                justify-content: space-between;
+                div {
+                    &.userful_links {
+                        width: 167px;
+                        display: flex;
+                        flex-direction: column;
+                        h2 {
+                            margin-bottom: 25px;
+                        }
+                        a {
+                            color: #a2a2a2;
+                            font-size: 18px;
+                        }
+                    }
+                    &.contact_info {
+                        display: flex;
+                        flex-direction: column;
+                        h2 {
+                            margin-bottom: 25px;
+                        }
+                        P {
+                            font-size: 18px;
+                            color: #a2a2a2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media only screen and (max-width: 900px) and (min-width: 601px) {
+    .last_part {
+        width: 91%;
+        margin: 136.37px auto 40.67px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        div {
+            margin: auto;
+            &.logo_desc {
+                width: 50.6%;
+                p {
+                    margin-top: 36.63px;
+                    color: #666;
+                    font-size: 16px;
+                }
+            }
+            &.userfullinks_contactinfo {
+                width: 415px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                div {
+                    &.userful_links {
+                        width: 167px;
+                        margin-top: 27px;
+                        display: flex;
+                        flex-direction: column;
+                        h2 {
+                            margin-bottom: 25px;
+                        }
+                        a {
+                            color: #a2a2a2;
+                            font-size: 18px;
+                        }
+                    }
+                    &.contact_info {
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 29px;
+                        h2 {
+                            margin-bottom: 25px;
+                        }
+                        P {
+                            font-size: 18px;
+                            color: #a2a2a2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .last_part {
+        width: 91%;
+        margin: 136.23px auto 40.67px;
+        text-align: center;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        div {
+            margin: auto;
+            &.logo_desc {
+                width: 100%;
+                p {
+                    margin-top: 36.63px;
+                    color: #666;
+                    font-size: 16px;
+                }
+            }
+            &.userfullinks_contactinfo {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                div {
+                    &.userful_links {
+                        width: 167px;
+                        margin-top: 27px;
+                        display: flex;
+                        flex-direction: column;
+                        h2 {
+                            margin-bottom: 25px;
+                        }
+                        a {
+                            color: #a2a2a2;
+                            font-size: 18px;
+                        }
+                    }
+                    &.contact_info {
+                        display: flex;
+                        flex-direction: column;
+                        margin-top: 29px;
+                        h2 {
+                            margin-bottom: 25px;
+                        }
+                        P {
+                            font-size: 18px;
+                            color: #a2a2a2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

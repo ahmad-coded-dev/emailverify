@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins';
+    scroll-behavior: smooth;
+}
+body {
+    p {
+        color: #666;
+    }
+    overflow-x: hidden;
+    a {
+        text-decoration: none;
+        border: none;
+        outline: none;
+        cursor: pointer;
+    }
+    button {
+        cursor: pointer;
+        border: none;
+        outline: none;
+    }
+}
+@media only screen and (min-width: 1201px) {
+    img {
+        &.main_bg {
+            position: fixed;
+            right: 0px;
+        }
+        &.main_bg_absolute {
+            position: absolute;
+            right: 0px;
+            top: 0;
+            z-index: -1;
+        }
+    }
+}
+@media only screen and (max-width: 1200px) {
+    img {
+        &.main_bg {
+            display: none;
+        }
+        &.main_bg_absolute {
+            display: none;
+        }
+    }
+}

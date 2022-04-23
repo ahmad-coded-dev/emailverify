@@ -1,0 +1,18 @@
+@import 'general'; //contains general information about all pages.
+@import 'navbar'; //contains scss of navbar of all pages.
+@import 'animation'; // contains keyframes and classess use to add animations.
+@import 'pay_for_fake'; //contains scss of "pay for fake" part (scroll section) of home page.
+@import 'varification_pro'; //contains scss of "how we verify emails" of home page.
+@import 'integration'; //contains scss of integration section of home page.
+@import 'bar'; //contains scss of yellow bar of all pages.
+@import 'question'; //contains scss of frequently asked questions of home & pricing pages.
+@import 'pricing'; //contains scss of price calculation section of pricing page.
+@import 'contact_form'; //contains scss of conatct form of pricing & about us page.
+@import 'about_desc'; //contains scss of description of about us page.
+@import 'our_team'; //contains scss of "our team" part of about us page.
+@import 'find_us'; //contains the scss of find us part in  about us page.
+@import 'last_part'; //contains scss of last part of all the pages.
+@import 'privacy_policy'; //contains the scss of the privacy policy page.
+@import 'terms&condition'; //contains the scss of the privacy policy page.
+@import '404'; //contains the scss of the 404 error page.
+@import 'footer'; //contains scss of footer of all pages.

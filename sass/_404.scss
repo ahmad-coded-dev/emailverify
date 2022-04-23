@@ -1,0 +1,19 @@
+.error_content {
+    margin: 176.5px auto 0px;
+    text-align: center;
+    h1 {
+        margin-top: 31.09px;
+        color: #666;
+        font-size: 36px;
+        span {
+            font-weight: normal;
+        }
+    }
+}
+@media screen and (max-width: 600px) {
+    .error_content {
+        h1 {
+            font-size: 30px;
+        }
+    }
+}

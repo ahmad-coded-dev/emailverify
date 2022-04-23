@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Error 404</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./sass/index.scss" />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="icon" href="./images/favicon.ico" />
+    </head>
+    <body>
+        <div class="bg_for_body"></div>
+        <!-- main page background mask -->
+        <img class="main_bg_absolute" src="./images/mask.svg" />
+
+        <button class="mob_navbar_hamburger">
+            <img class="mob_navbar_hamburger" src="./images/hamburger.svg" />
+        </button>
+
+        <!-- navbar  -->
+        <a class="mob_navbar_logo" href="./index.html"
+            ><img src="./images/emailverify_logo.svg"
+        /></a>
+        <div class="main-navbar" id="navbarr">
+            <div class="navbar hide_navbar">
+                <div class="navbar_logo">
+                    <a href="./index.html"
+                        ><img src="./images/emailverify_logo.svg"
+                    /></a>
+                </div>
+                <button class="mob_navbar_cross">
+                    <img class="mob_navbar_cross" src="./images/cross.svg" />
+                </button>
+                <div class="navbar_links_buttons">
+                    <div class="links_for_mobile_navbar">
+                        <a href="#" class="login_btn">Login</a>
+                        <a href="#" class="signup_btn">Sign up</a>
+                        <a href="#" class="dashboard_btn">Dashboard</a>
+                    </div>
+                    <div class="navbar_links">
+                        <div class="menuitems">
+                            <a href="./index.html">Home</a>
+                        </div>
+                        <div class="menuitems">
+                            <a href="./pricing.html">Pricing</a>
+                        </div>
+                        <div class="menuitems">
+                            <a href="./about.html">About us</a>
+                        </div>
+                    </div>
+
+                    <div class="navbar_buttons">
+                        <a href="#" class="login_btn">Login</a>
+                        <a href="#" class="signup_btn">Sign up</a>
+                        <a href="#" class="dashboard_btn">Dashboard</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="error_content">
+            <img src="./images/plane.svg" />
+            <h1>404 <span>Page not found</span></h1>
+            <p>The page you are looking for doesn't exist.</p>
+        </div>
+
+        <the-footer></the-footer>
+
+        <script type="module" src="./js/check_cookie.js"></script>
+        <script src="./js/nav.js"></script>
+        <script type="module" src="./js/components.js"></script>
+    </body>
+</html>

@@ -1,0 +1,812 @@
+@media only screen and (min-width: 1201px) {
+    .price_decription {
+        width: 938px;
+        height: 141.5px;
+        margin: 130px auto 0;
+        text-align: center;
+        h1 {
+            font-size: 54px;
+            span {
+                color: #00ae00;
+                margin-right: 10px;
+            }
+        }
+        p {
+            font-size: 18px;
+            margin-top: 7.5px;
+            color: #666;
+        }
+    }
+    .pricing_sction {
+        width: 961px;
+        height: 572px;
+        margin: 56px auto 0px;
+        box-shadow: 0 0px 66px 0 rgba(111, 109, 113, 0.2);
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #e0e0e0;
+        div {
+            &.valid_emails_section {
+                display: inline-block;
+                margin: 81.8px 0 0 67.16px;
+                p {
+                    &.valid_emails {
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                    &.valid_price {
+                        display: inline;
+                        margin-left: 41.67px;
+                        font-size: 30px;
+                        font-weight: 700;
+                        border-bottom: 1px solid #e0e0e0;
+                        color: #000;
+                    }
+                }
+                input {
+                    &.valid_slider {
+                        -webkit-appearance: none;
+                        width: 428.97px;
+                        height: 10px;
+                        margin-top: 14.14px;
+                        font-size: 16px;
+                        font-weight: 400px;
+                        color: #666;
+                        outline: none;
+                        border-radius: 12px;
+                        background: #e0e0e0;
+                        &.valid_slider::-webkit-slider-thumb {
+                            //for the chrome
+                            -webkit-appearance: none;
+                            width: 26px;
+                            height: 26px;
+                            background: #00ae00;
+                            border-radius: 100%;
+                            cursor: pointer;
+                        }
+                        &.valid_slider::-moz-range-thumb {
+                            //for the mozila firefox
+                            -webkit-appearance: none;
+                            width: 26px;
+                            height: 26px;
+                            background: #00ae00;
+                            border-radius: 50%;
+                            cursor: pointer;
+                        }
+                    }
+                    &.valid_input {
+                        height: 44px;
+                        width: 164.25px;
+                        margin-left: 24.87px;
+                        padding-left: 20px;
+                        font-size: 18px;
+                        border-radius: 8px;
+                        outline: none;
+                        border: 1px solid #000;
+                    }
+                }
+                div {
+                    &.min_max {
+                        width: 428.97px;
+                        margin-top: -8px;
+                        display: flex;
+                        justify-content: space-between;
+                        color: #666;
+                    }
+                }
+            }
+            &.invalidemails_section {
+                margin: 44.17px 0 0 67.16px;
+                p {
+                    &.invalidemails {
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                    &.invalid_price {
+                        display: inline;
+                        margin-left: 41.67px;
+                        font-size: 30px;
+                        font-weight: 700;
+                        border-bottom: 1px solid #e0e0e0;
+                        color: #000;
+                    }
+                }
+                input {
+                    &.invalid_slider {
+                        -webkit-appearance: none;
+                        width: 428.97px;
+                        height: 10px;
+                        margin-top: 14.14px;
+                        font-size: 16px;
+                        font-weight: 400px;
+                        color: #666;
+                        outline: none;
+                        border-radius: 12px;
+                        background: #e0e0e0;
+                        &.invalid_slider::-webkit-slider-thumb {
+                            //for the chrome
+                            -webkit-appearance: none;
+                            width: 26px;
+                            height: 26px;
+                            background: #e60000;
+                            border-radius: 100%;
+                            cursor: pointer;
+                        }
+                        &.invalid_slider::-moz-range-thumb {
+                            //for the mozila firefox
+                            -webkit-appearance: none;
+                            width: 26px;
+                            height: 26px;
+                            background: #e60000;
+                            border-radius: 50%;
+                            cursor: pointer;
+                        }
+                    }
+                    &.invalid_input {
+                        height: 44px;
+                        width: 164.25px;
+                        margin-left: 24.87px;
+                        padding-left: 20px;
+                        font-size: 18px;
+                        border-radius: 8px;
+                        outline: none;
+                        border: 1px solid #000;
+                    }
+                }
+                div {
+                    &.min_max {
+                        width: 428.97px;
+                        margin-top: -8px;
+                        display: flex;
+                        justify-content: space-between;
+                        color: #666;
+                    }
+                }
+            }
+            &.total_price_section {
+                margin: 80.17px 0 0 0;
+                text-align: center;
+                p {
+                    font-size: 24px;
+                    font-weight: 600;
+                    &.total_price {
+                        display: inline;
+                        color: #00ae00;
+                        font-weight: 700;
+                        font-size: 48px;
+                        margin: 10px auto 0;
+                        border-bottom: 1px solid #707070;
+                        span {
+                            margin-left: -10px;
+                        }
+                    }
+                    &.offer {
+                        margin-top: 14.33px;
+                        color: #666;
+                        font-weight: 400;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 901px) and (max-width: 1200px) {
+    .price_decription {
+        width: 80%;
+        height: 141.5px;
+        margin: 130px auto 0;
+        text-align: center;
+        h1 {
+            font-size: 48px;
+            span {
+                color: #00ae00;
+                margin-right: 10px;
+            }
+        }
+        p {
+            font-size: 18px;
+            margin-top: 7.5px;
+            color: #666;
+        }
+    }
+    .pricing_sction {
+        width: 85%;
+        margin: 56px auto 0px;
+        box-shadow: 0 0px 66px 0 rgba(111, 109, 113, 0.2);
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #e0e0e0;
+        div {
+            &.valid_emails_section {
+                position: relative;
+                margin: 40px auto;
+                width: 92%;
+                p {
+                    &.valid_emails {
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                    &.valid_price {
+                        display: inline;
+                        font-size: 28px;
+                        font-weight: 700;
+                        border-bottom: 1px solid #e0e0e0;
+                        color: #000;
+                        height: 48px;
+                        float: right;
+                    }
+                }
+                input {
+                    &.valid_slider {
+                        -webkit-appearance: none;
+                        width: 50%;
+                        height: 10px;
+                        margin-top: 14.14px;
+                        font-size: 16px;
+                        font-weight: 400px;
+                        color: #666;
+                        outline: none;
+                        border-radius: 12px;
+                        background: #e0e0e0;
+                        &.valid_slider::-webkit-slider-thumb {
+                            //for the chrome
+                            -webkit-appearance: none;
+                            width: 26px;
+                            height: 26px;
+                            background: #00ae00;
+                            border-radius: 100%;
+                            cursor: pointer;
+                        }
+                        &.valid_slider::-moz-range-thumb {
+                            //for the mozila firefox
+                            -webkit-appearance: none;
+                            width: 26px;
+                            height: 26px;
+                            background: #00ae00;
+                            border-radius: 50%;
+                            cursor: pointer;
+                        }
+                    }
+                    &.valid_input {
+                        height: 44px;
+                        width: 18%;
+                        padding-left: 20px;
+                        font-size: 18px;
+                        border-radius: 8px;
+                        outline: none;
+                        border: 1px solid #000;
+                        position: absolute;
+                        left: 57.5%;
+                    }
+                }
+                div {
+                    &.min_max {
+                        width: 50%;
+                        display: flex;
+                        justify-content: space-between;
+                        color: #666;
+                        margin-top: 5px;
+                    }
+                }
+            }
+            &.invalidemails_section {
+                margin: 40px auto 40px;
+                width: 92%;
+                position: relative;
+                p {
+                    &.invalidemails {
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                    &.invalid_price {
+                        display: inline;
+                        font-size: 28px;
+                        font-weight: 700;
+                        border-bottom: 1px solid #e0e0e0;
+                        color: #000;
+                        float: right;
+                    }
+                }
+                input {
+                    &.invalid_slider {
+                        -webkit-appearance: none;
+                        width: 50%;
+                        height: 10px;
+                        margin-top: 14.14px;
+                        font-size: 16px;
+                        font-weight: 400px;
+                        color: #666;
+                        outline: none;
+                        border-radius: 12px;
+                        background: #e0e0e0;
+                        &.invalid_slider::-webkit-slider-thumb {
+                            //for the chrome
+                            -webkit-appearance: none;
+                            width: 26px;
+                            height: 26px;
+                            background: #e60000;
+                            border-radius: 100%;
+                            cursor: pointer;
+                        }
+                        &.invalid_slider::-moz-range-thumb {
+                            //for the mozila firefox
+                            -webkit-appearance: none;
+                            width: 26px;
+                            height: 26px;
+                            background: #e60000;
+                            border-radius: 50%;
+                            cursor: pointer;
+                        }
+                    }
+                    &.invalid_input {
+                        height: 44px;
+                        width: 18%;
+                        padding-left: 20px;
+                        font-size: 18px;
+                        border-radius: 8px;
+                        outline: none;
+                        border: 1px solid #000;
+                        position: absolute;
+                        left: 57.5%;
+                    }
+                }
+                div {
+                    &.min_max {
+                        width: 50%;
+                        margin-top: 5px;
+                        display: flex;
+                        justify-content: space-between;
+                        color: #666;
+                    }
+                }
+            }
+            &.total_price_section {
+                margin: 70px 0 25px 0;
+                text-align: center;
+                p {
+                    font-size: 24px;
+                    font-weight: 600;
+                    &.total_price {
+                        display: inline;
+                        color: #00ae00;
+                        font-weight: 700;
+                        font-size: 48px;
+                        margin: 10px auto 0;
+                        border-bottom: 1px solid #707070;
+                        span {
+                            margin-left: -10px;
+                        }
+                    }
+                    &.offer {
+                        margin-top: 14.33px;
+                        color: #666;
+                        font-weight: 400;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 601px) {
+    .price_decription {
+        width: 91%;
+        height: 141.5px;
+        margin: 130px auto 0;
+        text-align: center;
+        h1 {
+            font-size: 30px;
+            span {
+                color: #00ae00;
+                margin-right: 10px;
+            }
+        }
+        p {
+            font-size: 16px;
+            margin-top: 7.5px;
+            color: #666;
+        }
+    }
+
+    .pricing_sction {
+        width: 92%;
+        height: 585px;
+        margin: 64px auto 0px;
+        box-shadow: 0 0px 66px 0 rgba(111, 109, 113, 0.2);
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #e0e0e0;
+        div {
+            &.valid_emails_section {
+                width: 90%;
+                margin: 41px auto 0;
+                position: relative;
+                input {
+                    &.valid_slider {
+                        -webkit-appearance: none;
+                        width: 100%;
+                        height: 14px;
+                        margin-top: 14.14px;
+                        font-size: 16px;
+                        font-weight: 400px;
+                        color: #666;
+                        outline: none;
+                        border-radius: 12px;
+                        background: #e0e0e0;
+                        position: static;
+                        &.valid_slider::-webkit-slider-thumb {
+                            //for the chrome
+                            -webkit-appearance: none;
+                            width: 28px;
+                            height: 28px;
+                            background: #00ae00;
+                            border-radius: 50%;
+                            cursor: pointer;
+                        }
+                        &.valid_slider::-moz-range-thumb {
+                            //for the mozila firefox
+                            -webkit-appearance: none;
+                            width: 28px;
+                            height: 28px;
+                            background: #00ae00;
+                            border-radius: 50%;
+                            cursor: pointer;
+                        }
+                    }
+                    &.valid_input {
+                        margin-top: 40px;
+                        height: 44px;
+                        width: 164.25px;
+                        padding-left: 20px;
+                        font-size: 20px;
+                        border-radius: 8px;
+                        outline: none;
+                        border: 1px solid #000;
+                    }
+                }
+                div {
+                    &.min_max {
+                        width: 97%;
+                        display: flex;
+                        justify-content: space-between;
+                        color: #666;
+                        position: absolute;
+                        top: 65px;
+                        left: 5px;
+                    }
+                }
+                p {
+                    &.valid_emails {
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                    &.valid_price {
+                        display: inline;
+                        margin-top: 48px;
+                        margin-right: 10px;
+                        font-size: 24px;
+                        font-weight: 600;
+                        border-bottom: 1px solid #e0e0e0;
+                        color: #000;
+                        float: right;
+                    }
+                }
+            }
+            &.invalidemails_section {
+                width: 90%;
+                margin: 35px auto 0;
+                position: relative;
+                input {
+                    &.invalid_slider {
+                        -webkit-appearance: none;
+                        width: 100%;
+                        height: 14px;
+                        margin-top: 14.14px;
+                        font-size: 16px;
+                        font-weight: 400px;
+                        color: #666;
+                        outline: none;
+                        border-radius: 12px;
+                        background: #e0e0e0;
+                        &.invalid_slider::-webkit-slider-thumb {
+                            //for the chrome
+                            -webkit-appearance: none;
+                            width: 28px;
+                            height: 28px;
+                            background: #e60000;
+                            border-radius: 100%;
+                            cursor: pointer;
+                        }
+                        &.invalid_slider::-moz-range-thumb {
+                            //for the mozila firefox
+                            -webkit-appearance: none;
+                            width: 28px;
+                            height: 28px;
+                            background: #e60000;
+                            border-radius: 50%;
+                            cursor: pointer;
+                        }
+                    }
+                    &.invalid_input {
+                        margin-top: 40px;
+                        height: 44px;
+                        width: 164.25px;
+                        padding-left: 20px;
+                        font-size: 20px;
+                        border-radius: 8px;
+                        outline: none;
+                        border: 1px solid #000;
+                    }
+                }
+                div {
+                    &.min_max {
+                        width: 97%;
+                        display: flex;
+                        justify-content: space-between;
+                        color: #666;
+                        position: absolute;
+                        top: 65px;
+                        left: 5px;
+                    }
+                }
+                p {
+                    &.invalidemails {
+                        font-size: 16px;
+                        font-weight: 700;
+                    }
+                    &.invalid_price {
+                        display: inline;
+                        margin-top: 48px;
+                        margin-right: 10px;
+                        font-size: 24px;
+                        font-weight: 600;
+                        border-bottom: 1px solid #e0e0e0;
+                        color: #000;
+                        float: right;
+                    }
+                }
+            }
+            &.total_price_section {
+                margin: 51.17px 0 0 0;
+                text-align: center;
+                p {
+                    font-size: 24px;
+                    font-weight: 600;
+                    &.total_price {
+                        display: inline;
+                        color: #00ae00;
+                        font-weight: 700;
+                        font-size: 48px;
+                        margin: 10px auto 0;
+                        border-bottom: 1px solid #707070;
+                        span {
+                            margin-left: -10px;
+                        }
+                    }
+                    &.offer {
+                        margin-top: 14.33px;
+                        color: #666;
+                        font-weight: 400;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .price_decription {
+        width: 91%;
+        margin: 130px auto 0;
+        text-align: center;
+        h1 {
+            font-size: 30px;
+            span {
+                color: #00ae00;
+                margin-right: 10px;
+            }
+        }
+        p {
+            font-size: 14px;
+            margin-top: 7.5px;
+            color: #666;
+        }
+    }
+
+    .pricing_sction {
+        width: 92%;
+        height: 572px;
+        margin: 64px auto 0px;
+        box-shadow: 0 0px 66px 0 rgba(111, 109, 113, 0.2);
+        background: #fff;
+        border-radius: 10px;
+        border: 1px solid #e0e0e0;
+        div {
+            &.valid_emails_section {
+                width: 90%;
+                margin: 41px auto 0;
+                position: relative;
+                input {
+                    &.valid_slider {
+                        -webkit-appearance: none;
+                        width: 100%;
+                        height: 10px;
+                        margin-top: 14.14px;
+                        font-size: 16px;
+                        font-weight: 400px;
+                        color: #666;
+                        outline: none;
+                        border-radius: 12px;
+                        background: #e0e0e0;
+                        position: static;
+                        &.valid_slider::-webkit-slider-thumb {
+                            //for the chrome
+                            -webkit-appearance: none;
+                            width: 24px;
+                            height: 24px;
+                            background: #00ae00;
+                            border-radius: 50%;
+                            cursor: pointer;
+                        }
+                        &.valid_slider::-moz-range-thumb {
+                            //for the mozila firefox
+                            -webkit-appearance: none;
+                            width: 24px;
+                            height: 24px;
+                            background: #00ae00;
+                            border-radius: 50%;
+                            cursor: pointer;
+                        }
+                    }
+                    &.valid_input {
+                        margin-top: 40px;
+                        height: 44px;
+                        width: 144.25px;
+                        padding-left: 20px;
+                        font-size: 20px;
+                        border-radius: 8px;
+                        outline: none;
+                        border: 1px solid #000;
+                    }
+                }
+                div {
+                    &.min_max {
+                        width: 97%;
+                        display: flex;
+                        justify-content: space-between;
+                        position: absolute;
+                        top: 60px;
+                        left: 5px;
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+                p {
+                    &.valid_emails {
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: #000;
+                    }
+                    &.valid_price {
+                        display: inline;
+                        margin-top: 48px;
+                        margin-right: 10px;
+                        font-size: 24px;
+                        font-weight: 600;
+                        border-bottom: 1px solid #e0e0e0;
+                        color: #000;
+                        float: right;
+                    }
+                }
+            }
+            &.invalidemails_section {
+                width: 90%;
+                margin: 35px auto 0;
+                position: relative;
+                input {
+                    &.invalid_slider {
+                        -webkit-appearance: none;
+                        width: 100%;
+                        height: 10px;
+                        margin-top: 14.14px;
+                        font-size: 16px;
+                        font-weight: 400px;
+                        color: #666;
+                        outline: none;
+                        border-radius: 12px;
+                        background: #e0e0e0;
+                        &.invalid_slider::-webkit-slider-thumb {
+                            //for the chrome
+                            -webkit-appearance: none;
+                            width: 24px;
+                            height: 24px;
+                            background: #e60000;
+                            border-radius: 100%;
+                            cursor: pointer;
+                        }
+                        &.invalid_slider::-moz-range-thumb {
+                            //for the mozila firefox
+                            -webkit-appearance: none;
+                            width: 24px;
+                            height: 24px;
+                            background: #e60000;
+                            border-radius: 50%;
+                            cursor: pointer;
+                        }
+                    }
+                    &.invalid_input {
+                        margin-top: 40px;
+                        height: 44px;
+                        width: 144.25px;
+                        padding-left: 20px;
+                        font-size: 20px;
+                        border-radius: 8px;
+                        outline: none;
+                        border: 1px solid #000;
+                    }
+                }
+                div {
+                    &.min_max {
+                        width: 97%;
+                        display: flex;
+                        justify-content: space-between;
+                        position: absolute;
+                        top: 60px;
+                        left: 5px;
+                        p {
+                            font-size: 12px;
+                        }
+                    }
+                }
+                p {
+                    &.invalidemails {
+                        font-size: 14px;
+                        font-weight: 700;
+                        color: #000;
+                    }
+                    &.invalid_price {
+                        display: inline;
+                        margin-top: 48px;
+                        margin-right: 10px;
+                        font-size: 24px;
+                        font-weight: 600;
+                        border-bottom: 1px solid #e0e0e0;
+                        color: #000;
+                        float: right;
+                    }
+                }
+            }
+            &.total_price_section {
+                margin: 51.17px 0 0 0;
+                text-align: center;
+                p {
+                    font-size: 24px;
+                    font-weight: 600;
+                    color: #000;
+                    &.total_price {
+                        display: inline;
+                        color: #00ae00;
+                        font-weight: 700;
+                        font-size: 48px;
+                        margin: 10px auto 0;
+                        border-bottom: 1px solid #707070;
+                        span {
+                            margin-left: -10px;
+                        }
+                    }
+                    &.offer {
+                        margin-top: 14.33px;
+                        color: #666;
+                        font-weight: 400;
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
+}

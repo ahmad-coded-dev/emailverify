@@ -1,0 +1,255 @@
+@media only screen and (min-width: 1201px) {
+    .team_desc {
+        width: 565px;
+        margin: 150px auto 0;
+        text-align: center;
+        p {
+            margin-top: 26px;
+            color: #666;
+            font-size: 18px;
+        }
+    }
+
+    .our_team {
+        margin: 94px auto 0;
+        width: 1161px;
+        div {
+            &.member_card {
+                background: url('../images/our_team.svg');
+                background-repeat: no-repeat;
+                width: 294px;
+                height: 330px;
+                text-align: center;
+                margin-bottom: 71px;
+                margin-right: 134.82px;
+                display: inline-block;
+                img {
+                    border-radius: 50%;
+                    height: 200px;
+                    width: 200px;
+                    padding: 8px;
+                    border: 1px solid #00ae00;
+                    background: #fff;
+                }
+                h2 {
+                    margin: 41.65px auto 0;
+                    line-height: 1.15;
+                    font-weight: 500;
+                }
+                p {
+                    color: #00ae00;
+                    font-size: 18px;
+                    margin-top: 7px;
+                }
+                &:nth-child(3n) {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+
+    .best-team-slider-container {
+        display: none;
+    }
+    .radio-button {
+        display: none;
+    }
+}
+@media only screen and (max-width: 1200px) and (min-width: 901px) {
+    .team_desc {
+        width: 565px;
+        margin: 150px auto 0;
+        text-align: center;
+        p {
+            margin-top: 26px;
+            color: #666;
+            font-size: 18px;
+        }
+    }
+    .our_team {
+        margin: 94px auto 0;
+        width: 92%;
+        div {
+            &.member_card {
+                width: 25%;
+                text-align: center;
+                margin-right: 11%;
+                margin-bottom: 71px;
+                display: inline-block;
+                border: 1px solid rgba($color: #e0e0e0, $alpha: 0.4);
+                img {
+                    border-radius: 50%;
+                    height: 180px;
+                    width: 180px;
+                    padding: 2%;
+                    margin-top: 20px;
+                    border: 1px solid #00ae00;
+                    background: #fff;
+                }
+                h2 {
+                    margin: 40.65px auto 0;
+                    line-height: 1.15;
+                    font-weight: 500;
+                }
+                p {
+                    color: #00ae00;
+                    font-size: 18px;
+                    margin-top: 7px;
+                    margin-bottom: 10px;
+                }
+                &:nth-child(3n) {
+                    margin-right: 0;
+                }
+            }
+        }
+    }
+    .best-team-slider-container {
+        display: none;
+    }
+    .radio-button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 900px) and (min-width: 601px) {
+    .team_desc {
+        width: 60%;
+        margin: 150px auto 0;
+        text-align: center;
+        p {
+            margin-top: 26px;
+            color: #666;
+            font-size: 18px;
+        }
+    }
+    .our_team {
+        margin: 94px auto 0;
+        width: 92%;
+        div {
+            &.member_card {
+                background: url('../images/our_team.svg');
+                background-repeat: no-repeat;
+                width: 43%;
+                height: 330px;
+                text-align: center;
+                margin-bottom: 71px;
+                display: inline-block;
+                img {
+                    border-radius: 50%;
+                    height: 200px;
+                    width: 200px;
+                    padding: 8px;
+                    border: 1px solid #00ae00;
+                    background: #fff;
+                }
+                h2 {
+                    margin: 41.65px auto 0;
+                    line-height: 1.15;
+                    font-weight: 500;
+                }
+                p {
+                    color: #00ae00;
+                    font-size: 18px;
+                    margin-top: 7px;
+                }
+                &:nth-child(2n) {
+                    float: right;
+                }
+            }
+        }
+    }
+    .best-team-slider-container {
+        display: none;
+    }
+    .radio-button {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .team_desc {
+        width: 100%;
+        margin: 112px auto 0;
+        text-align: center;
+        h1 {
+            font-size: 30px;
+        }
+        p {
+            width: 91%;
+            margin: 30px auto 0;
+            color: #666;
+            font-size: 18px;
+        }
+    }
+    .our_team {
+        display: none;
+    }
+    .best-team-slider-container {
+        width: 100%;
+        margin: 150px auto 0;
+        overflow: hidden;
+    }
+    .best-team-slider {
+        position: relative;
+        height: 100%;
+        display: inline-flex;
+    }
+    .member_card_mb {
+        background-repeat: no-repeat;
+        width: 425px;
+        height: 100%;
+        text-align: center;
+        div {
+            position: relative;
+            height: 232px;
+            width: 216px;
+            margin: 0 auto;
+            text-align: center;
+            img {
+                position: absolute;
+                left: 0;
+                &.member-img {
+                    border-radius: 50%;
+                    height: 200px;
+                    width: 200px;
+                    padding: 8px;
+                    border: 1px solid #00ae00;
+                    background: #fff;
+                }
+                &.member-bg {
+                    left: -20%;
+                }
+            }
+        }
+        h2 {
+            width: 60%;
+            margin: 25.65px auto 0;
+            line-height: 1;
+            font-size: 24px;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 36px;
+        }
+        p {
+            color: #00ae00;
+            font-size: 18px;
+            margin-top: 6px;
+        }
+    }
+    .radio-button {
+        text-align: center;
+    }
+    input[type='radio'] {
+        -webkit-appearance: none;
+        width: 15px;
+        height: 15px;
+        margin: 34px 2px;
+        border-radius: 50%;
+        outline: none;
+        background-color: #e0e0e0;
+        transition: 0.2s;
+    }
+    input[type='radio']:checked {
+        background: #00ae00;
+    }
+}
